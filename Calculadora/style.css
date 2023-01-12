@@ -25,15 +25,23 @@
   margin: 5px;
   box-shadow: 1px 1px 4px rgb(54, 53, 53);
 }
+
 #botaoIgual {
   height: 50px;
   width: 62px;
+}
+#numeros{
+  background-color: #646470;
+  color: whitesmoke;
+  border: solid 0.5px black;
+  border-radius: 2px;
 }
 #zero{
   width: 134px;
 }
 .clear {
   width: 130px;
+  background-color: rgb(113, 218, 113);
 }
 .enter {
   width: 90px;

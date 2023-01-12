@@ -14,6 +14,7 @@ var calcular = (tipo, valor) => {
     ) {
       document.getElementById("resultado").value += valor;
     }
+  
     if (valor === "=") {
       //eval processa o valor do input
       var valor_campo = eval(document.getElementById("resultado").value);
